@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+#header{
+    background-image: url("./img_2.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+
+}
+
+ ul li a:hover {
+    color: yellow;   
+    background-color: yellow; 
+}
+.header-text h1{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+
+    }
+    .container{
+        position: ;
+    }
+    .container a :hover{
+        color: burlywood;
+        cursor: pointer;
+    }
+    .header-text h4{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-left: 3px solid gold;
+        padding-left: 15px;
+    }
+    .btn{
+        width: 11rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+/* -----------------------about---------------------- */
+.container-1{
+    padding: 90px 130px ;
+    display: flex;
+    justify-content: center;
+    
+}    
+.container-1 img{
+        width: 100%;
+        border-radius: 5px;
+        height: 95%;
+    }
+.right{
+    flex-basis: 35%;
+    
+}
+.left{
+    flex-basis: 50%;
+    padding-left: 50px;
+}
+
+.left h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 3rem;
+}
+.left p{
+    line-height: 2rem;
+    font-weight: 500;
+}
+.progress{
+    height: 7px;
+}
+.about-progress{
+    margin-top: 2.3rem;
+}
+.percent{
+    padding-right: 35px;
+}
+.percent1{
+    padding-right: 6rem;
+}
+.percent2{
+    padding-right: 11.3rem;
+}
+.percent3{
+    padding-right: 8rem;
+}
+/* ------------------services---------------- */
+#services{
+    background-color: rgb(230, 221, 202);
+}
+.container-2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 80px;
+}
+.services-text{
+    color: rgb(5, 5, 40);
+}
+.spec{
+    background: linear-gradient(to  right, orange, white);
+    margin-top: 40px;
+   height: 3rem;
+   padding: 15px;
+   width: 12rem;
+    margin-left: 6rem;
+}
+.services-col{
+    padding: 30px;
+    display: flex;
+    /* display: grid; */
+    grid-gap: 50px;
+}
+.col{
+    height: 300px;    
+    padding-top: 30px;
+}
+.col p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    margin-top: 30px;
+}
+/* ------------------contact------------------------ */
+.container-5{
+    padding: 130px;
+    justify-content: center;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 30%;
+    margin-right: 50px;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+.form-1{
+    display: flex;
+    justify-content: space-between;
+}
+.form-1 .bx{
+    width: 40%;
+}
+.contact-left .contact-text h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px;
+}
+.contact-text p{
+    line-height: 2rem;
+    font-size: 17px;
+}
+
+
+
+
+/* -----------------widget---------------- */
+#widget{
+    background-color: rgb(18, 18, 61);
+}
+.container-6{
+    padding: 120px;    
+}
+.container-6 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    
+}
+.container-6 a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    padding: 30px;
+}
+.container-6 a:hover{
+  color: orange;
+}
+/* --------------------footer------------------ */
+footer{
+    background-color: rgb(20, 20, 43);
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+.word{
+    margin-left: 10rem;
+    
+}
+
+.word a{
+   color: white;
+   text-decoration: none;
+   justify-content: space-around;
+}
+.word a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.copyright{
+    color: white;
+    margin-right: 10rem;
+}
+
+
+/* ----------for desktop------------- */
+
+@media only screen and (min-width:780px) {
+    #nav ul {
+        padding-left: 30rem;          
+    }
+    .header-text p{
+        margin-bottom: 20px;
+       
+     
+         }
+    .header-text{
+        
+        margin-left: 4.5rem;;
+    }
+    .container a{
+        font-size: medium;
+    }
+    /* -----------------------about---------------------- */
+   
+    }
+/* ----------for smaller------------- */
+    @media only screen and (min-width:320px) and (max-width:480px){
+        #header{
+       background-position: top;
+       /* background-size: 100vh; */
+       height: 69vh; 
+            }
+        .header-text h1{
+             font-size: 45px;
+            
+             }  
+
+             .header-text p{
+                font-size: larger;
+                margin-bottom: 0px;
+              
+                
+             }
+             .container{
+                position: fix;
+             }
+             .header-text{
+                margin-left: 1rem;
+                margin-top: 6rem;
+            }
+            .container .img{
+                width: 2.5rem;
+            }
+            .container a{
+                font-size: medium;
+            }
+            .do{
+            margin-top: 2rem;
+           
+            }
+            /* -----------------------about---------------------- */
+       .container-1{
+        display: inline-block;
+        padding: 90px 30px ;
+    } 
+    .left{
+        padding-top: 30px;
+        flex-basis: 60%;
+        padding-left: 0px;
+    }
+    .percent{
+        padding-right: 15px;
+    }
+    .percent1{
+        padding-right: 3rem;
+    }
+    .percent2{
+        padding-right: 6.3rem;
+    }
+    .percent3{
+        padding-right: 4rem;
+    }
+    /* ---------------------sevices------------------ */
+    .services-col{
+        display: inline-block;
+        grid-gap: 50px;
+        width: 25rem;
+        padding: 0;
+        margin-left: 5px;
+
+    }
+    .container-2{
+        padding: 0px;
+        
+    }
+    .services-text{
+    padding-top: 50px;
+}
+.spec{
+    margin-top: 40px;
+   padding: 10px;
+   width: 12rem;
+    margin-left: 6rem;
+}
+#services{
+    height: 130vh;
+}
+/* ------------------contact------------------------ */
+.container-5{
+    padding: 110px 10px;
+    justify-content: none;
+    display: inline-block;
+}
+.form-1{
+    display: inline-block;
+    justify-content: none;
+}
+.form-1 .bx{
+    width: 170%;
+}
+
+/* -----------------widget---------------- */
+.container-6{
+    padding: 90px;    
+}
+.container-6 h2{
+    font-size: 35px;
+    
+}
+.container-6 a{
+    font-size: x-large;
+    padding: 0px;
+}
+/* --------------------footer------------------ */
+footer{
+    display: inline-block;
+    justify-content: center;
+    padding: 30px 60px;
+    width: 100%;
+}
+.word{
+    margin-left: 0rem;
+}
+.copyright{
+    margin-right: 0rem;
+}
+        }
+
+        /* ----------for tablet------------- */
+    @media only screen and (min-width:481px) and (max-width:768px){
+     #header{
+        background-position: center;
+        background-size: cover;
+       
+     }
+       
+        }
+
